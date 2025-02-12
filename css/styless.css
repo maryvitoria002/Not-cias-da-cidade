@@ -73,3 +73,42 @@ body.fotos #navegacao a#fotos{
     cursor: text;
 }
 
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    background: blue;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario{
+    width: 270px;
+    background: yellow;
+    margin: 0 0 20px 15px;
+    float: left;
+}
+
+#lateral{
+    width: 180px;
+    background: #69001d;
+    margin: 0 0  20px -750px;;
+    float: left;
+}
+
+/* Rodapé */
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: auto;
+    color: #fff;
+}
+
