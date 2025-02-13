@@ -73,6 +73,8 @@ body.fotos #navegacao a#fotos{
     cursor: text;
 }
 
+/* Config layout de colunas */
+
 #conteudo{
     margin-top: 60px;
     background: #f5f5f5;
@@ -80,23 +82,48 @@ body.fotos #navegacao a#fotos{
 
 #primario{
     width: 270px;
-    background: blue;
     float: left;
     margin: 0 0 20px 195px;
 }
 
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-colunas #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
 #secundario{
     width: 270px;
-    background: yellow;
     margin: 0 0 20px 15px;
     float: left;
 }
 
 #lateral{
     width: 180px;
-    background: #69001d;
     margin: 0 0  20px -750px;;
     float: left;
+}
+
+/* caixa */
+.caixa{
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+    padding: 5px;
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 /* Rodapé */
@@ -111,4 +138,6 @@ body.fotos #navegacao a#fotos{
     margin: auto;
     color: #fff;
 }
+
+
 
