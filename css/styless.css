@@ -27,6 +27,17 @@ body{
     text-indent: -3000px;
 }
 
+/* Barra de navegação */
+
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px
+}
+
+a:hover{
+    color: #e50040;
+}
+
 ul{
     list-style: none;
     margin: 0;
@@ -184,6 +195,40 @@ h3{
 
 .entrevista h3{
     background: #de003e;
+}
+
+/* Formatando lista de notícias */
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+   font-size: 0.8em;
+   padding: 0;
+   color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+
+
+#lista-noticias li:hover{
+    cursor: pointer;
+    background-color: #eee;
 }
 
 /* Rodapé */
